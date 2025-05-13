@@ -18,9 +18,9 @@ const HeroSection = () => {
             Vous avez parfois l'impression de perdre le fil face aux usages numériques de votre enfant ?
           </p>
           <Button 
-            className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-6 py-6 text-sm"
+            className="bg-sky-500 hover:bg-sky-700 text-white rounded-full px-6 py-6 text-sm"
           >
-            Découvrir la console avec La Boussole
+            Reprenez le dessus avec La Boussole
           </Button>
         </div>
         <div className="md:w-1/2">

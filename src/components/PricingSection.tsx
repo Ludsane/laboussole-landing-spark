@@ -24,13 +24,13 @@ const PricingCard = ({
   const getButtonClass = () => {
     switch (buttonVariant) {
       case "outline":
-        return "bg-transparent text-blue-600 border border-blue-600 hover:bg-blue-50";
+        return "bg-transparent text-sky-500 border border-sky-500 hover:bg-blue-50";
       case "premium":
-        return "bg-blue-600 text-white hover:bg-blue-700";
+        return "bg-sky-500 text-white hover:bg-sky-700";
       case "secondary":
         return "bg-green-600 text-white hover:bg-green-700";
       default:
-        return "bg-blue-600 text-white hover:bg-blue-700";
+        return "bg-sky-500 text-white hover:bg-sky-700";
     }
   };
 
@@ -88,7 +88,6 @@ const PricingSection = () => {
           title="Version Premium" 
           price="60"
           features={[
-            "Essayez 30 jours",
             "Dashboard avancé",
             "Chatbot illimité",
             "Alertes contenus inappropriés en temps réel"
@@ -103,7 +102,7 @@ const PricingSection = () => {
           price="20"
           features={[
             "Un accès complet à prix réduit pour les familles aux revenus modestes",
-            "Parce que protéger ses enfants ne devrait jamais être une question de moyens"
+            "Car protéger ses enfants ne devrait jamais être une question de moyens"
           ]}
           buttonText="Découvrir l'offre solidaire"
           buttonVariant="secondary"

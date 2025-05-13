@@ -20,15 +20,15 @@ const ConceptSection = () => {
           <ul className="space-y-3 text-gray-600">
             <li className="flex items-start">
               <span className="text-green-500 mr-2">•</span> 
-              <span>Vous aider au quotidien.</span>
+              <span>Savoir ce que regarde votre enfant,</span>
             </li>
             <li className="flex items-start">
               <span className="text-green-500 mr-2">•</span>
-              <span>Être alerté quand c'est nécessaire.</span>
+              <span>Être alerté quand c'est nécessaire,</span>
             </li>
             <li className="flex items-start">
               <span className="text-green-500 mr-2">•</span>
-              <span>Développer de meilleures habitudes numériques.</span>
+              <span>Construire de meilleures habitudes numériques.</span>
             </li>
           </ul>
         </div>

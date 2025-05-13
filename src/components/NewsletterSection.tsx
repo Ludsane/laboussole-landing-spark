@@ -34,7 +34,7 @@ const NewsletterSection = () => {
             className="rounded-full px-4 py-6"
             required
           />
-          <Button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-6">
+          <Button type="submit" className="bg-sky-500 hover:bg-sky-700 text-white rounded-full px-6">
             S'abonner
           </Button>
         </form>

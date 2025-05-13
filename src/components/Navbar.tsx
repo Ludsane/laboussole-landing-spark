@@ -11,12 +11,12 @@ const Navbar = () => {
         </Link>
         
         <nav className="hidden md:flex space-x-6 text-m">
-          <Link to="#" className="text-gray-600 hover:text-blue-600">Télécharger l'application</Link>
-          <Link to="#" className="text-gray-600 hover:text-blue-600">Blog</Link>
-          <Link to="#" className="text-gray-600 hover:text-blue-600">Qui sommes-nous ?</Link>
+          <Link to="#" className="text-gray-600 hover:text-sky-500">Télécharger l'application</Link>
+          <Link to="#" className="text-gray-600 hover:text-sky-500">Blog</Link>
+          <Link to="#" className="text-gray-600 hover:text-sky-500">Qui sommes-nous ?</Link>
         </nav>
         
-        <Button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-5">
+        <Button className="bg-sky-500 hover:bg-sky-700 text-white rounded-full px-5">
           Se connecter
         </Button>
       </div>
