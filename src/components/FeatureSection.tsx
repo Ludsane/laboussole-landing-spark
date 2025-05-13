@@ -17,7 +17,7 @@ interface FeatureProps {
 
 const Feature = ({ number, title, description, description2, description3, buttonText, buttonLink, icon, image, reverse }: FeatureProps) => {
   return (
-    <div className={`feature-circle py-16 flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-10`}>
+    <div className={`feature-circle flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-10`}>
       <div className="md:w-1/2 space-y-6">
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center text-sm font-semibold">
@@ -36,7 +36,7 @@ const Feature = ({ number, title, description, description2, description3, butto
         )}
       </div>
       <div className="md:w-1/2">
-        {image && <img src={image || "/placeholder.svg"} alt={title} className="w-full max-w-sm mx-auto rounded-lg" />}
+        {image && <img src={image || "/placeholder.svg"} alt={title} className="w-xl" />}
       </div>
     </div>
   );
@@ -44,8 +44,8 @@ const Feature = ({ number, title, description, description2, description3, butto
 
 const FeatureSection = () => {
   return (
-    <section className="py-10 px-6 md:px-10 lg:px-16">
-      <div className="max-w-7xl mx-auto space-y-16">
+    <section className="py-10 px-6  ">
+      <div className="max-w-7xl mx-auto ">
         <Feature 
           number={1}
           title="Paramétrage & Dashboard"

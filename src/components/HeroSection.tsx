@@ -6,14 +6,11 @@ const HeroSection = () => {
     <section className="pt-32 pb-20 px-6 md:px-10 lg:px-16 relative overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 mb-10 md:mb-0">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-            Mieux comprendre.<br />
-            Mieux accompagner.<br />
-            <span className="relative">
-              Moins de <span className="text-green-600">conflits</span>
-              <span className="absolute w-full h-2 bg-green-200 opacity-40 bottom-1 left-0 -z-10"></span>
-            </span>.
-          </h1>
+          <img
+            src="/assets/H1 header.svg"
+            alt="La Boussole - Application de contrôle parental"
+            className="w-full"
+          />
           <p className="text-gray-600 text-lg">
             Vous avez parfois l'impression de perdre le fil face aux usages numériques de votre enfant ?
           </p>
@@ -23,11 +20,17 @@ const HeroSection = () => {
             Reprenez le dessus avec La Boussole
           </Button>
         </div>
-        <div className="md:w-1/2">
+        <div className="">
           <img 
             src="/assets/enfant-jouant-ensemble.png"
             alt="Parent et enfant utilisant la technologie ensemble" 
-            className="w-full max-w-md mx-auto"
+            className="w-full max-w-md mx-auto absolute right-0 bottom-0 z-10"
+          />
+          <img 
+            src="/assets/yellow.png"
+            alt="Mockup de l'application La Boussole" 
+            className="w-full max-w-md right-0 bottom-0 absolute z-1"
+       
           />
         </div>
       </div>
