@@ -5,7 +5,7 @@ const ConceptSection = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
         <div className="md:w-1/3">
           <img 
-            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+            src="/assets/enfant-ecran.png"
             alt="Enfant avec un appareil numérique" 
             className="w-full max-w-sm mx-auto rounded-lg"
           />

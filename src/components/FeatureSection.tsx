@@ -32,7 +32,7 @@ const Feature = ({ number, title, description, buttonText, buttonLink, icon, ima
         )}
       </div>
       <div className="md:w-1/2">
-        {image && <img src={image || "/placeholder.svg"} alt={title} className="w-full max-w-sm mx-auto rounded-lg shadow-md" />}
+        {image && <img src={image || "/placeholder.svg"} alt={title} className="w-full max-w-sm mx-auto rounded-lg" />}
       </div>
     </div>
   );
@@ -49,7 +49,7 @@ const FeatureSection = () => {
           buttonText="Explorer le tableau de bord"
           buttonLink="#"
           icon={<LayoutDashboard className="w-4 h-4" />}
-          image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+          image="/assets/mock1.png"
         />
         
         <Feature 
@@ -59,7 +59,7 @@ const FeatureSection = () => {
           buttonText="Discuter avec le chatbot"
           buttonLink="#"
           icon={<MessageCircle className="w-4 h-4" />}
-          image="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+          image="/assets/mock2.png"
           reverse
         />
         
@@ -70,7 +70,7 @@ const FeatureSection = () => {
           buttonText="Voir comment ça marche"
           buttonLink="#"
           icon={<Bell className="w-4 h-4" />}
-          image="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+          image="/assets/garcon-adorable.png"
         />
       </div>
     </section>

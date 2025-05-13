@@ -25,9 +25,9 @@ const HeroSection = () => {
         </div>
         <div className="md:w-1/2">
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+            src="/assets/enfant-jouant-ensemble.png"
             alt="Parent et enfant utilisant la technologie ensemble" 
-            className="w-full max-w-md mx-auto rounded-lg shadow-lg"
+            className="w-full max-w-md mx-auto"
           />
         </div>
       </div>
