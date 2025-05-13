@@ -24,12 +24,12 @@ const HeroSection = () => {
           <img 
             src="/assets/enfant-jouant-ensemble.png"
             alt="Parent et enfant utilisant la technologie ensemble" 
-            className="w-full max-w-md mx-auto absolute right-0 bottom-0 z-10"
+            className="w-full max-w-md mx-auto absolute right-0 bottom-0 z-10 hidden md:block "
           />
           <img 
             src="/assets/yellow.png"
             alt="Mockup de l'application La Boussole" 
-            className="w-full max-w-md right-0 bottom-0 absolute z-1"
+            className="w-full max-w-md right-0 bottom-0 absolute z-1 hidden md:block"
        
           />
         </div>
