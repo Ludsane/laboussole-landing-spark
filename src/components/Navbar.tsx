@@ -1,0 +1,29 @@
+
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+
+const Navbar = () => {
+  return (
+    <header className="bg-white py-4 px-6 md:px-10 lg:px-16 shadow-sm fixed w-full top-0 z-50">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <Link to="/" className="text-primary font-bold text-xl flex items-center">
+          <span className="text-blue-600">La</span>
+          <span className="text-blue-700">Boussole</span>
+          <span className="text-xs align-top">.</span>
+        </Link>
+        
+        <nav className="hidden md:flex space-x-6 text-sm">
+          <Link to="#" className="text-gray-600 hover:text-blue-600">Télécharger l'application</Link>
+          <Link to="#" className="text-gray-600 hover:text-blue-600">Blog</Link>
+          <Link to="#" className="text-gray-600 hover:text-blue-600">Qui sommes-nous ?</Link>
+        </nav>
+        
+        <Button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-5">
+          Se connecter
+        </Button>
+      </div>
+    </header>
+  );
+};
+
+export default Navbar;
