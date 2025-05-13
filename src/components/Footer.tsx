@@ -7,11 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <Link to="/" className="text-primary font-bold text-xl flex items-center">
-              <span className="text-blue-600">La</span>
-              <span className="text-blue-700">Boussole</span>
-              <span className="text-xs align-top">.</span>
-            </Link>
+          <img src="/assets/logo.svg" alt="Logo" className="h-8 mr-2" />
           </div>
           
           <div>
