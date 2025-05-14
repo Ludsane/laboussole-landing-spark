@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 space-y-6 mb-10 md:mb-0">
           <img
-            src="/assets/H1 header.svg"
+            src="/assets/H1_header.svg"
             alt="La Boussole - Application de contrôle parental"
             className="w-full"
           />
