@@ -10,6 +10,7 @@ interface PricingCardProps {
   buttonText: string;
   buttonVariant?: "default" | "outline" | "premium" | "secondary";
   isHighlighted?: boolean;
+  promotion?: string;
 }
 
 const PricingCard = ({ 
@@ -19,6 +20,7 @@ const PricingCard = ({
   features, 
   buttonText, 
   buttonVariant = "default",
+  promotion,
   isHighlighted = false 
 }: PricingCardProps) => {
   const getButtonClass = () => {
@@ -44,6 +46,11 @@ const PricingCard = ({
         </div>
       </div>
 
+      {promotion && (
+        <div className="text-center mb-4">
+          <span className="text-sm text-gray-500">{promotion}</span>
+        </div>
+      )}
       <ul className="space-y-3 mb-8">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
@@ -65,7 +72,7 @@ const PricingSection = () => {
 const [isYearly, setIsYearly] = useState(false);
 
 const freePrice = "0";
-const premiumPrice = isYearly ? "70" : "6";
+const premiumPrice = isYearly ? "60" : "6";
 const solidarityPrice = isYearly ? "20" : "2,5";
 
 const toggleBilling = () => {
@@ -108,6 +115,7 @@ const toggleBilling = () => {
         <PricingCard 
           title="Version Premium" 
           price={premiumPrice}
+          promotion="Economisez 12€ avec l'abonnement annuel !"
           features={[
             "Dashboard avancé",
             "Chatbot illimité",
