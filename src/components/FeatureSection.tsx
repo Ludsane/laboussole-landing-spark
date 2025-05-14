@@ -74,7 +74,7 @@ const FeatureSection = () => {
         <Feature 
           number={3}
           title="Alertes de contenus inappropriés"
-          description="PRecevez des alertes (dans un délai de 5 minutes) si un contenu problématique est visionné : violence, désinformation, etc."
+          description="Recevez des alertes (dans un délai de 5 minutes) si un contenu problématique est visionné : violence, désinformation, etc."
           description2="Et suivez les conseils pour accompagner votre enfant après coup."
           description3="👉 Agir au bon moment, sans stress."
           buttonText="Voir comment ça marche"
