@@ -48,21 +48,21 @@ const FeatureSection = () => {
       <div className="max-w-7xl mx-auto ">
         <Feature 
           number={1}
-          title="Paramétrage & Dashboard"
-          description="Configurez les usages selon l’âge, le type de contenu, et la durée souhaitée."
-          description2="Consultez en un coup d’œil ce que votre enfant regarde."
+          title="Mieux comprendre pour mieux accompagner"
+          description="Vous voulez savoir ce qui capte vraiment l’attention de vos enfants sans avoir à espionner ni à tout interdire ?"
+          description2="On vous aide à y voir plus clair, à votre rythme, sans stress."
           description3="👉 Suivi clair, contrôle ajusté."
           buttonText="Explorer le tableau de bord"
           buttonLink="#"
           icon={<LayoutDashboard className="w-4 h-4" />}
-          image="/assets/mock1.png"
+          image="/assets/mere-enfant.png"
         />
         
         <Feature 
           number={2}
-          title="Chatbot interactif"
-          description="Posez vos question, recevez des conseils personnalisés et guidés."
-          description2="Notre assistant est là pour vous orienter avec bienveillance."
+          title="Des réponses, quand vous en avez besoin"
+          description="Vous vous demandez &quot;C’est grave s’il regarde ça ?&quot;, &quot;Je réagis comment ?&quot;, &quot;Par où commencer ?&quot;"
+          description2="On est là pour vous guider avec des conseils simples et adaptés à votre quotidien."
           description3="👉 Des réponses claires, quand vous en avez besoin."
           buttonText="Discuter avec le chatbot"
           buttonLink="#"
@@ -73,9 +73,9 @@ const FeatureSection = () => {
         
         <Feature 
           number={3}
-          title="Alertes de contenus inappropriés"
-          description="Recevez des alertes (dans un délai de 5 minutes) si un contenu problématique est visionné : violence, désinformation, etc."
-          description2="Et suivez les conseils pour accompagner votre enfant après coup."
+          title="Être alerté quand ça compte"
+          description="Et si vous pouviez être prévenu dès qu’un contenu pose vraiment problème ?"
+          description2="Pour protéger, en comprenant."
           description3="👉 Agir au bon moment, sans stress."
           buttonText="Voir comment ça marche"
           buttonLink="#"

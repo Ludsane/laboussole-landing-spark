@@ -69,7 +69,7 @@ const PricingCard = ({
 
 const PricingSection = () => {
 
-const [isYearly, setIsYearly] = useState(false);
+const [isYearly, setIsYearly] = useState(true);
 
 const freePrice = "0";
 const premiumPrice = isYearly ? "60" : "6";
@@ -104,9 +104,8 @@ const toggleBilling = () => {
           title="Version gratuite" 
           price={freePrice}
           features={[
-            "Suivi du temps d'écran et des contenus regardés",
-            "3 questions par semaine au chatbot",
-            "Alertes des contenus inappropriés en fin de journée"
+            "Accès à certaines fonctionnalités de base",
+            "Idéal pour découvrir l'application et ses avantages"
           ]}
           buttonText="Essayer gratuitement"
           buttonVariant="outline"
@@ -117,9 +116,7 @@ const toggleBilling = () => {
           price={premiumPrice}
           promotion="Economisez 12€ avec l'abonnement annuel !"
           features={[
-            "Dashboard avancé",
-            "Chatbot illimité",
-            "Alertes contenus inappropriés en temps réel"
+            "Accès à toutes les fonctionnalités en illimité",
           ]}
           buttonText="Essayez 30 jours"
           buttonVariant="premium"
@@ -131,7 +128,7 @@ const toggleBilling = () => {
           price={solidarityPrice}
           features={[
             "Un accès complet à prix réduit pour les familles aux revenus modestes",
-            "Car protéger ses enfants ne devrait jamais être une question de moyens"
+    
           ]}
           buttonText="Découvrir l'offre solidaire"
           buttonVariant="secondary"
